@@ -6,7 +6,7 @@ Implement and compare six first-order optimizers on a convex 2D quadratic using 
 
 ## Test Function
 
-Quadratic objective with condition number $\kappa = b/a$ (set to 10):
+Quadratic objective::
 
 $$f(x, y) = a x^2 + b y^2, \quad \nabla f = [2 a x, 2 b y]$$
 
@@ -29,11 +29,7 @@ cd src
 python runner.py
 ```
 
-Outputs (saved to results/):
-
-- convergence_plot.png — loss vs. iteration
-- contour_paths.png — optimizer trajectories on the contour plot
-- summary.txt — final loss, steps to reach 1e-4, and instability counts
+Outputs (saved to results/)
 
 ## Findings (current run)
 

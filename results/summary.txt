@@ -1,0 +1,8 @@
+Optimizer | Final Loss | Steps<1e-4 | Loss Increases
+----------------------------------------------------
+SGD       | 1.7638e-08 |        59 |             0
+Momentum  | 3.6679e-03 |       n/a |            44
+Nesterov  | 3.6679e-03 |       n/a |            44
+AdaGrad   | 1.7288e+00 |       n/a |             0
+RMSProp   | 2.1096e+00 |       n/a |             0
+Adam      | 1.3853e+01 |       n/a |             0
